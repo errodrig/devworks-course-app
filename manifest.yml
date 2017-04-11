@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: devworks-course-app
+  host: devworks-course-appedgarrt
+  disk_quota: 1024M
+  services:
+  - devworks-course-app-cloudantNoSQLDB
+  - Language Translator-sv
+  - Conversation-aa
+  - availability-monitoring-auto
